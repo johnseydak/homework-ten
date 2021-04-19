@@ -1,0 +1,28 @@
+footer {
+    width: 1280px;
+    height:100px;
+    background-color: $site-blue;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+
+    .logo {
+        //background-color: red;
+        width: 92px;
+        height: 42px;
+        align-self: center;
+    
+    }
+    .copyright {
+        font-size: 12px;
+        align-self: center;
+        color: $white;
+    }
+    .socialmedia {
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        color: $white;
+    }
+}

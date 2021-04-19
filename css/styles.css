@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans";
+}
+
+html, body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding-bottom: 20px;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(fonts/GillSans.ttc);
+}
+.hero {
+  width: 1280px;
+  height: 500px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/home-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.hero nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero nav .logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+.hero nav .links {
+  width: 400px;
+  height: 42px;
+  font-family: GillSans;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero nav .links div.pipe {
+  color: #79ADDC;
+  font-size: 20px;
+}
+.hero nav .links div a {
+  font-family: "GillSans";
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  text-transform: lowercase;
+}
+.hero .bannertext {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding-top: 80px;
+}
+.hero .lorem {
+  text-align: center;
+  color: white;
+}
+.hero .readmore {
+  background-color: #79ADDC;
+  padding: 15px 30px;
+  width: 150px;
+  text-align: center;
+  left: 565px;
+  top: 50px;
+  color: white;
+  margin: 0 auto;
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.links {
+  width: 400px;
+  height: 42px;
+  font-family: GillSans;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.pipe {
+  color: #79ADDC;
+  font-size: 20px;
+}
+div a {
+  font-family: "GillSans";
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  text-transform: lowercase;
+}
+
+.hero-content {
+  height: 350px;
+  /*background-color: rgba(100,100,100,.5);*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content h1 {
+  color: #fff;
+}
+
+.hero-content .page-name {
+  text-transform: capitalize;
+}
+
+.home-hero-image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero/home-hero.jpeg);
+}
+
+.about-hero-image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero/about-hero.jpg);
+}
+
+.specialoffers-hero-image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero/specialoffers-hero.jpg);
+}
+
+.blog-hero-image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero/tours-hero.jpg);
+}
+
+.products-hero-image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero/blog-hero.jpg);
+}
+
+.contact-hero-image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero/contact-hero.jpg);
+}
+
+.promo-tours {
+  width: 1280px;
+  height: 304px;
+  margin: -50px auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.promo-tours .promo {
+  height: 304px;
+  width: 236px;
+  background-color: bisque;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.promo-tours .promo .header {
+  font-family: GillSans;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.promo-tours .promo .price {
+  margin-bottom: 70px;
+}
+.promo-tours .promo .learn-more {
+  background-color: #79ADDC;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.promo-tours .israel {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-01.jpg);
+}
+.promo-tours .usa {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-02.jpg);
+}
+.promo-tours .austrailia {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  background-color: #79ADDC;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 120px;
+}
+footer .logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+footer .copyright {
+  font-size: 12px;
+  align-self: center;
+  color: #fff;
+}
+footer .socialmedia {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  color: #fff;
+}
+
+.booking-form {
+  width: 1280px;
+  height: 890px;
+  margin: 100px auto -100px auto;
+  background-color: beige;
+  display: flex;
+}
+.booking-form .name {
+  margin: 40px auto;
+  padding: 10px 30px;
+  border: #79ADDC solid 1px;
+}
+.booking-form .email {
+  margin: 40px auto;
+  padding: 10px 30px;
+  border: #79ADDC solid 1px;
+}
+.booking-form .country {
+  margin: 40 auto;
+  padding: 10px 30px;
+  border: #79ADDC solid 1px;
+}
+.booking-form .hotel {
+  margin: 40 auto;
+  padding: 10px 30px;
+  border: #79ADDC solid 1px;
+}
+
+nav {
+  width: 980px;
+  height: 60px;
+  border-bottom: #fff solid 3px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+nav .links {
+  width: 400px;
+  height: 42px;
+  font-family: GillSans;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .links div.pipe {
+  color: #79ADDC;
+  font-size: 20px;
+}
+nav .links div a {
+  font-family: "GillSans";
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  text-transform: lowercase;
+}

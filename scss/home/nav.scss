@@ -1,0 +1,44 @@
+nav {
+    width: 980px;
+    height: 60px;
+    border-bottom: $white solid 3px;
+    //background-color: red;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+
+    .logo {
+        //background-color: red;
+        width: 92px;
+        height: 42px;
+        align-self: center;
+    }
+    .links {
+        width: 400px;
+        height: 42px;
+        font-family: GillSans;
+        align-self: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        div {
+            &.pipe {
+                color: $site-blue;
+                font-size: 20px;
+            }
+            //margin: auto;
+            a {
+                font-family: "GillSans";
+                font-size: 15px;
+                text-decoration: none;
+                color: $white;
+                margin: auto;
+                text-transform: lowercase;
+            }
+        }
+
+        
+    }
+}

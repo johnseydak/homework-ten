@@ -1,0 +1,176 @@
+.hero {
+    width: 1280px;
+    height: 500px;
+    background-image: $overlay, url(../images/home-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding-top: 20px;
+
+        //.nav {
+
+            //.logo {
+
+            //}
+            //.links {
+                //font-family: "GillSans";
+            //}
+
+       //}
+       nav {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 30px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+
+        .logo {
+            //background-color: red;
+            width: 92px;
+            height: 42px;
+            align-self: center;
+        }
+        .links {
+            width: 400px;
+            height: 42px;
+            font-family: GillSans;
+            align-self: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            div {
+                &.pipe {
+                    color: $site-blue;
+                    font-size: 20px;
+                }
+                //margin: auto;
+                a {
+                    font-family: "GillSans";
+                    font-size: 15px;
+                    text-decoration: none;
+                    color: $white;
+                    margin: auto;
+                    text-transform: lowercase;
+                }
+            }
+    
+            
+        }
+
+    }
+
+    .bannertext{
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        padding-top: 80px;
+
+    }
+    .lorem {
+         text-align: center;
+         color: white;
+    }
+    .readmore {
+         background-color: $site-blue;
+         padding: 15px 30px;
+         //border-radius: 20px;
+         width: 150px;
+         //position:relative;
+         text-align: center;
+         left:565px;
+         top: 50px;
+         color:white;
+         margin: 0 auto;
+     }
+
+}
+nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    //background-color: red;
+    width: 92px;
+    height: 42px;
+    align-self: center;
+}
+nav a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.links {
+    width: 400px;
+    height: 42px;
+    font-family: GillSans;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div {
+    &.pipe {
+        color: $site-blue;
+        font-size: 20px;
+    }
+    //margin: auto;
+    a {
+        font-family: "GillSans";
+        font-size: 15px;
+        text-decoration: none;
+        color: $white;
+        margin: auto;
+        text-transform: lowercase;
+    }
+}
+
+.hero-content{
+    height:350px;
+    /*background-color: rgba(100,100,100,.5);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h1{
+    color: #fff;
+
+}
+
+.hero-content .page-name {
+    text-transform: capitalize;
+}
+
+.home-hero-image {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/hero/home-hero.jpeg);
+}
+
+.about-hero-image {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/hero/about-hero.jpg);
+}
+
+.specialoffers-hero-image {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/hero/specialoffers-hero.jpg);
+}
+
+.blog-hero-image {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/hero/tours-hero.jpg);
+}
+
+.products-hero-image {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/hero/blog-hero.jpg);
+}
+
+.contact-hero-image{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/hero/contact-hero.jpg);
+}
