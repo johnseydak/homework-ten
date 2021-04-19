@@ -34,6 +34,7 @@ p {
   padding-top: 20px;
 }
 .hero nav {
+  width: 980px;
   height: 60px;
   display: flex;
   align-items: center;
@@ -97,17 +98,13 @@ nav {
   padding-top: 30px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  border-bottom: #fff solid 3px;
 }
 
 .logo {
   width: 92px;
   height: 42px;
   align-self: center;
-}
-
-nav a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .links {

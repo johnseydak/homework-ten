@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans';
+  }
+  
+  html, body{
+    height: 100%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p{
+    padding-bottom: 20px;
+  }
+  
+  @font-face{
+    font-family: GillSans;
+    src: url(fonts/GillSans.otf);
+  }
+  
+  .about{
+    max-width: 980px; //max-width for responsiveness
+    //background-color: aqua;
+    margin:0 auto; //must have a width to set "margin: 0 auto"
+
+    .about-top-section{
+        margin-top: 100px;
+        padding-bottom: 5px;
+
+        .about-title{
+            border-bottom: black solid 3px;
+            width: 100px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .about-bottom-section{
+        margin-top: 100px;
+        h3{
+            flex-direction: row;
+            border-bottom: black solid 3px;
+            width: 80px;
+            //padding-bottom: 20px;
+        }
+
+        .client{
+            max-width: 676px;
+            min-height: 150px;
+            display: flex;
+            margin-bottom: 38px;
+
+            .client-image{
+                width: 260px;
+                height: 150px;
+                //background-color: red;
+
+                img {
+                    height: 100%; 
+                }
+            }
+            .client1{
+                background-image: url(../images/about-client-01.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .client2{
+                background-image: url(../images/about-client-02.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .client-quote{
+                position: relative; //deals with the child which is position absolute in the client-name below
+                //background-color: green;
+                min-height: 50px;
+                width: 100%;
+                padding-left: 25px; 
+                flex-direction: row;
+
+                p:last-of-type{//affected only the last paragraph (even though there's only one) and changed the text color red
+                    color: black;
+                    margin-bottom: 25px;
+                    &:last-child { //this is a BLOCK ELEMENT MODIFIER
+                        //margin-bottom: 55px;
+                        color:gray;
+                    }
+                }
+
+                .client-name{
+                    position: absolute;
+                    //text-align: right;
+                    right: 0;
+                    bottom: 0;
+                    color: #79ADDC;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .about {
+        .about-bottom-section{
+            padding: 10px;
+        }
+    }
+}
+

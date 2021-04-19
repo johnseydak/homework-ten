@@ -38,17 +38,34 @@ var homeContent = `<section class="promo-tours">
 <div class="message">message</div>
 </section>`;                //home in homeContent matches the nav home id
 var aboutContent =`<div class="about">
-<div class="image3"></div>
-<div class="text3">
-    <h1>About us...</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi non sem dapibus, convallis lobortis erat consectetur. Praesent finibus nisi eu bibendum tristique. Nullam magna nulla, feugiat vitae iaculis id, bibendum nec ligula. Nullam id enim mattis, convallis orci quis, hendrerit velit. Suspendisse tortor tortor, cursus sed libero sed.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi non sem dapibus, convallis lobortis erat consectetur. Praesent finibus nisi eu bibendum tristique. Nullam magna nulla, feugiat vitae iaculis id, bibendum nec ligula. Nullam id enim mattis, convallis orci quis, hendrerit velit. Suspendisse tortor tortor, cursus sed libero sed.</p>
+<div class="about-top-section">
+    <div class="about-title">
+    <h1>ABOUT:</h1></div>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
 </div>
-<div class="image4"></div>
-<div class="text4"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi non sem dapibus, convallis lobortis erat consectetur. Praesent finibus nisi eu bibendum tristique. Nullam magna nulla, feugiat vitae iaculis id, bibendum nec ligula. Nullam id enim mattis, convallis orci quis, hendrerit velit. Suspendisse tortor tortor, cursus sed libero sed.</p></div>
-<div class="image5"></div>
-<div class="text6"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi non sem dapibus, convallis lobortis erat consectetur. Praesent finibus nisi eu bibendum tristique. Nullam magna nulla, feugiat vitae iaculis id, bibendum nec ligula. Nullam id enim mattis, convallis orci quis, hendrerit velit. Suspendisse tortor tortor, cursus sed libero sed.</p></div>
-<div class="text7"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi non sem dapibus, convallis lobortis erat consectetur. Praesent finibus nisi eu bibendum tristique. Nullam magna nulla, feugiat vitae iaculis id, bibendum nec ligula. Nullam id enim mattis, convallis orci quis, hendrerit velit. Suspendisse tortor tortor, cursus sed libero sed.</p></div>
+<div class="about-bottom-section">
+    <h3>CLIENT QUOTES:</h3>
+    <div class="client">
+        <div class="client-image client1">
+            <div class="client1"></div>
+                <!--<img src="images/about-client-01.jpg" alt="Client Image">-->
+        </div>
+        <div class="client-quote">
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+            <div class="client-name">- Miranda Brown</div>
+        </div>
+    </div>
+    <div class="client">
+        <div class="client-image client2">
+            <div class="client2"></div>
+                <!--<img src="images/about-client-02.jpg" alt="Client Image">-->
+        </div>
+        <div class="client-quote">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <div class="client-name">- Johnathan Wes</div>
+        </div>
+    </div>
+</div>
 </div>`;
 var productsContent =`<div class="locations">
 <div class="tours"><h1>Tours</h1></div>
