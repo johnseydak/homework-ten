@@ -2,27 +2,32 @@
     font-family: Proxima;
     width: 980px;
     height: 700px;
-    margin: auto;
-    display: flex;
+    display: block;
     margin: 0 auto;
-    background-color: black; // This is a pretty good indicator that the CSS isn't updating
-    position: relative;
+    //background-color: black; // This is a pretty good indicator that the CSS isn't updating
+    //position: relative;
 
 
     .headline{
         padding-left: 0px;
-        font-size: 50px;
+        font-size: 30px;
         width: 980px;
-
+        height:150px;
+        margin-top: 80px;
         flex-direction: row;
-        border-bottom: black 3px;
+        //border-bottom: black 3px;
+        //display:block;
+
+        .headlineborder{
+            border-bottom: black 3px;
+            display:block;
+        }
+
     }
     .offers{
-
-
+        //display:flex;
         .offer1{
             flex-direction: row;
-
             .barcelonaimage{
                 background-image: $overlay, url(../images/special-offer-01.jpg);
                 background-repeat: no-repeat;
@@ -33,22 +38,17 @@
                 font-size: 12px;
                 padding-left: 10px;
             }
-
             .barcelonasection2 {
 
                .barcelonasale{
-                   position:fixed;
+                   //position:fixed;
                    padding-left: 10px;
                    padding-top: 3px;
                } 
-
             }
-
         }
-
         .offer2{
             flex-direction: row;
-
             .bangkokimage{
                 background-image: $overlay, url(../images/special-offer-02.jpg);
                 background-repeat: no-repeat;
@@ -62,17 +62,15 @@
             .bangkoksection2{
 
                 .bangkoksale{
-                    position: fixed;
+                    //position: fixed;
                     padding-left: 10px;
                     padding-top: 3px;
                 }
                 
             }    
         }
-
     }
 }
-
 @media only screen and (max-width: 795px) {
     .specialoffers{
 

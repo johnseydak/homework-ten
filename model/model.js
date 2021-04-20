@@ -124,48 +124,47 @@ var toursContent =`
     </div>
 </section>`;
 var specialoffersContent =`<div class="specialoffers">
-<div class="headline">
-   SPECIAL OFFER(S):
-   <div class="headlineborder"></div>
-</div>
-<div class="offers">
-    <div class="offer1">
-       <div class="barcelonaimage"></div>
-       <div class="barcelonasection1">
-           <div class="barcelonaheadline">BARCELONA, SPAIN</div>
-           <div class="barcelonasale"></div>
-           <div class="barcelonaborder"></div>
-           <div class="lorem">
-            <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-            </p>
-           </div>
-           <div class="learn-more">
-               LEARN MORE
-           </div>
-       </div>
-       <div class="barcelonasection2">
-            <div class="barcelonasale">(20% off!)</div>
-       </div>
-   </div>
-   <div class="offer2">
-        <div class="bangkokimage"></div>
-        <div class="bangkoksection1">
-            <div class="bangkokheadline">BANGKOK, THAILAND</div>
-            <div class="bangkoksale"></div>
-            <div class="bangkokborder"></div>
+    <div class="headline">SPECIAL OFFER(S):
+        <div class="headlineborder"></div>
+    </div>
+    <div class="offers">
+        <div class="offer1">
+        <div class="barcelonaimage"></div>
+        <div class="barcelonasection1">
+            <div class="barcelonaheadline">BARCELONA, SPAIN</div>
+            <div class="barcelonasale"></div>
+            <div class="barcelonaborder"></div>
             <div class="lorem">
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                </p>
             </div>
             <div class="learn-more">
                 LEARN MORE
             </div>
         </div>
-        <div class="bangkoksection2">
-            <div class="bangkoksale">(10% off!)</div>
+        <div class="barcelonasection2">
+                <div class="barcelonasale">(20% off!)</div>
         </div>
     </div>
-</div>
+    <div class="offer2">
+            <div class="bangkokimage"></div>
+            <div class="bangkoksection1">
+                <div class="bangkokheadline">BANGKOK, THAILAND</div>
+                <div class="bangkoksale"></div>
+                <div class="bangkokborder"></div>
+                <div class="lorem">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                </div>
+                <div class="learn-more">
+                    LEARN MORE
+                </div>
+            </div>
+            <div class="bangkoksection2">
+                <div class="bangkoksale">(10% off!)</div>
+            </div>
+        </div>
+    </div>
 </div>`;
 var blogContent =`<div class="blog">
 <div class="blogheadline">
