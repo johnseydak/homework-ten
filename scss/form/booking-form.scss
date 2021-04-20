@@ -1,8 +1,8 @@
 .booking-form {
-    width: 1280px;
-    height: 800px;
+    width: 890px;
+    height: 1500px;
     margin: 100px auto -100px auto;
-    background-color: beige;
+    //background-color: beige;
     display: flex;
     flex-direction: column;
     
@@ -11,37 +11,45 @@
     }
 
     .row1 {
-        width:818px;
+        width:890px;
+        height: 78px;
         flex-direction: row;
         justify-content: space-between;
+        margin-top: 20px;
         .name {
-            margin: 40px auto;
+            //margin: 40px auto 40 auto;
             width: 344px;
             height: 58px;
             //background-color: $site-blue;
-            padding: 10px 30px;
+            padding: 17px 30px;
             border: $site-blue solid 1px;
+            float: left;
+            
         }
         .email {
-            margin: 40px auto;
+            //margin: 40px auto;
             width: 453px;
             height: 58px;
             //background-color: $site-blue;
-            padding: 10px 30px;
+            padding: 17px 30px;
             border: $site-blue solid 1px;
+            float: right;
         } 
     }
     .row2{
         flex-direction: row;
         justify-content: space-between;
+        margin-bottom: 20px;
         .country {
             flex-direction: row;
-            margin: 40 auto;
+            //margin-bottom: 20px;
+            //margin: 40 auto;
             width: 344px;
             height: 58px;
             //background-color: $site-blue;
-            padding: 10px 30px;
+            padding: 17px 30px;
             border: $site-blue solid 1px;
+            float: left;
         }
         .hotel {
             flex-direction: row;
@@ -49,47 +57,69 @@
             width: 453px;
             height: 58px;
             //background-color: $site-blue;
-            padding: 10px 30px;
+            padding: 17px 30px;
             border: $site-blue solid 1px;
+            float: right;
         }
     }
     .row3{
         border: $site-blue solid 1px;
         height: 58px;
+        margin-bottom: 20px;
         .check-in {
             width:698px;
+            padding: 17px 30px;
         }
     }
     .row4{
         border: $site-blue solid 1px;
         height: 58px;
+        margin-bottom: 20px;
         .check-out {
             width:698px;
+            padding: 17px 30px;
         }
     }
     .row5{
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-bottom: 20px;
         .adult {
             border: $site-blue solid 1px;
             height: 58px;
+            width: 224px;
+            padding: 17px 30px;
         }
         .children {
             border: $site-blue solid 1px;
             height: 58px;
+            width: 224px;
+            padding: 17px 30px;
         }
         .rooms {
             border: $site-blue solid 1px;
             height: 58px;
+            width: 224px;
+            padding: 17px 30px;
         }
     }
 
     .message {
+        margin-top: 40px;
         border: $site-blue solid 1px;
-        width:800px;
+        width:890px;
         height: 192px;
+        padding: 17px 30px;
     }
-
+    .submit{
+        margin-top: 40px;
+        background-color: $site-blue;
+        padding: 10px 30px;
+        border-radius: 20px;
+        text-align:center;
+        color:white;
+    }
 
 
 

@@ -27,7 +27,6 @@ var homeContent = `<section class="promo-tours">
     </div><br>
     <div class ="row3">
         <div class="check-in">Check-In</div>
-        <div class="check-out">Check-Out</div>
     </div><br>
     <div class="row4">
     <div class="check-out">Check-Out</div>
@@ -38,6 +37,7 @@ var homeContent = `<section class="promo-tours">
         <div class="rooms">Rooms</div>
     </div>
     <div class="message">message</div>
+    <div class="submit">SUBMIT</div>
 </section>`;                //home in homeContent matches the nav home id
 var aboutContent =`<div class="about">
 <div class="about-top-section">
