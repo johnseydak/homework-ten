@@ -1,0 +1,109 @@
+.promo-tours {
+    max-width: 1280px;
+    height: 1500px; //was min-height of 304px
+    //background-color: cadetblue;
+    margin: -50px auto;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 150px; 
+    padding-right: 150px; 
+    
+    .promo {
+        height: 304px;
+        width: 236px;
+        background-color: bisque;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: $white;
+        display: flex;
+        //flex-direction: column;
+        //align-items: center;
+        justify-content: center;
+        margin-bottom: 30 px;
+       
+        .header {
+            font-family: GillSans;
+            font-size: 40px;
+            margin-bottom: 15px;
+
+        }
+        .price {
+            margin-bottom: 70px;
+        }
+        .learn-more {
+            background-color: $site-blue;
+            padding: 10px 30px;
+            border-radius: 20px;
+        }
+
+
+    }
+
+    .row1{
+        flex-direction: row;
+        width: 980px;
+        height: 334px;
+        padding-bottom: 30px;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        .israel {
+            background-image: $overlay, url(../images/tour-01.jpg);
+        }
+        .usa {
+            background-image: $overlay, url(../images/tour-02.jpg);
+        }
+        .austrailia {
+            background-image: $overlay, url(../images/tour-03.jpg);
+        }
+    }
+
+    .row2{
+        flex-direction: row;
+        width: 980px;
+        height: 334px;
+        padding-bottom: 30px;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        .new_zealand {
+            background-image: $overlay, url(../images/tour-04.jpg);
+        }
+        .france {
+            background-image: $overlay, url(../images/tour-05.jpg);
+        }
+        .egypt {
+            background-image: $overlay, url(../images/tour-06.jpg);
+        }
+    }
+    
+    .row3{
+        flex-direction: row;
+        width: 980px;
+        height: 334px;
+        padding-bottom: 30px;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        .japan{
+            background-image: $overlay, url(../images/tour-07.jpg);
+        }
+        .canada{
+            background-image: $overlay, url(../images/tour-08.jpg);
+        }
+        .uae {
+            background-image: $overlay, url(../images/tour-09.jpg);
+        }
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    .promo-tours {
+        width : 236px;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+
+        .promo {
+            margin-bottom: 30 px;
+        }
+    }
+}

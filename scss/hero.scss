@@ -7,8 +7,6 @@
     background-position: center;
     margin: 0 auto;
     padding-top: 20px;
-    //vertical-align: middle;
-    display: block;
 
         //.nav {
 
@@ -21,35 +19,37 @@
 
        //}
        nav {
-        width: 1280px;
+        width: 980px;
         height: 60px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        //padding-top: 30px;
+        padding-top: 30px;
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
        
-            .logo {
-                //background-color: red;
-                width: 92px;
-                height: 42px;
-                align-self: center;
-            }
-            .links {
-                width: 400px;
-                height: 42px;
-                font-family: GillSans;
-                align-self: center;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
+
+        .logo {
+            //background-color: red;
+            width: 92px;
+            height: 42px;
+            align-self: center;
+        }
+        .links {
+            width: 400px;
+            height: 42px;
+            font-family: GillSans;
+            align-self: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
     
-                div {
-                    &.pipe {
-                        color: $site-blue;
-                        font-size: 20px;
+            div {
+                &.pipe {
+                    color: $site-blue;
+                    font-size: 20px;
                 }
+                //margin: auto;
                 a {
                     font-family: "GillSans";
                     font-size: 15px;
@@ -66,14 +66,11 @@
     }
 
     .bannertext{
-        width:1280px;
-        //height: 80px;
         text-align: center;
         font-size: 50px;
         color: white;
         padding-top: 80px;
-        display:block;
-        text-align:center;
+
     }
     .lorem {
          text-align: center;
@@ -98,7 +95,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    //padding-top: 30px;
+    padding-top: 30px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: $white solid 3px;

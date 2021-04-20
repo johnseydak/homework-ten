@@ -21,7 +21,7 @@ function init(){
         }else {
             $(".hero").removeClass(`${currentHeroImage}-hero-image1`);
 
-            $(".hero").css("display","none"); //this tells the browser to remove the hero CSS file to not "display" by using "none"
+            $(".hero").css("display","block"); //this tells the browser to remove the hero CSS file to not "display" by using "none"
 
             $("#app").removeClass("HomePadding").addClass("otherPadding");
 

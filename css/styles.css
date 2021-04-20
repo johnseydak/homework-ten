@@ -32,6 +32,558 @@ p {
   background-position: center;
   margin: 0 auto;
   padding-top: 20px;
+  display: block;
+}
+.hero nav {
+  width: 1280px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero nav .logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+.hero nav .links {
+  width: 400px;
+  height: 42px;
+  font-family: GillSans;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero nav .links div.pipe {
+  color: #79ADDC;
+  font-size: 20px;
+}
+.hero nav .links div a {
+  font-family: "GillSans";
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  text-transform: lowercase;
+}
+.hero .bannertext {
+  width: 1280px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding-top: 80px;
+  display: block;
+  text-align: center;
+}
+.hero .lorem {
+  text-align: center;
+  color: white;
+}
+.hero .readmore {
+  background-color: #79ADDC;
+  padding: 15px 30px;
+  width: 150px;
+  text-align: center;
+  left: 565px;
+  top: 50px;
+  color: white;
+  margin: 0 auto;
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: #fff solid 3px;
+}
+
+.logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+
+.links {
+  width: 400px;
+  height: 42px;
+  font-family: GillSans;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.pipe {
+  color: #79ADDC;
+  font-size: 20px;
+}
+div a {
+  font-family: "GillSans";
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  text-transform: lowercase;
+}
+
+.hero-content {
+  height: 350px;
+  /*background-color: rgba(100,100,100,.5);*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content h1 {
+  color: #fff;
+}
+
+.hero-content .page-name {
+  text-transform: capitalize;
+}
+
+.home-hero-image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero/home-hero.jpeg);
+}
+
+.about-hero-image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero/about-hero.jpg);
+}
+
+.specialoffers-hero-image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero/specialoffers-hero.jpg);
+}
+
+.blog-hero-image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero/tours-hero.jpg);
+}
+
+.products-hero-image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero/blog-hero.jpg);
+}
+
+.contact-hero-image {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero/contact-hero.jpg);
+}
+
+.promo-tours {
+  width: 1280px;
+  height: 304px;
+  margin: -50px auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.promo-tours .promo {
+  height: 304px;
+  width: 236px;
+  background-color: bisque;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.promo-tours .promo .header {
+  font-family: GillSans;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.promo-tours .promo .price {
+  margin-bottom: 70px;
+}
+.promo-tours .promo .learn-more {
+  background-color: #79ADDC;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.promo-tours .israel {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-01.jpg);
+}
+.promo-tours .usa {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-02.jpg);
+}
+.promo-tours .austrailia {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
+}
+
+footer {
+  max-width: 100%;
+  height: 100px;
+  background-color: #79ADDC;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 120px;
+  margin-top: 130px;
+  margin-bottom: 0px;
+  position: relative;
+}
+footer .logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+footer .copyright {
+  font-size: 12px;
+  align-self: center;
+  color: #fff;
+}
+footer .socialmedia {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1060px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #79ADDC;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+    margin-top: 130px;
+  }
+
+  footer .logo {
+    width: 92px;
+    height: 42px;
+    align-self: center;
+  }
+
+  footer .copyright {
+    font-size: 12px;
+    align-self: center;
+    color: #fff;
+  }
+
+  footer .socialmedia {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    color: #fff;
+  }
+}
+.booking-form {
+  width: 1280px;
+  height: 800px;
+  margin: 100px auto -100px auto;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+}
+.booking-form .h1 {
+  font-size: 50px;
+}
+.booking-form .row1 {
+  width: 818px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.booking-form .row1 .name {
+  margin: 40px auto;
+  width: 344px;
+  height: 58px;
+  padding: 10px 30px;
+  border: #79ADDC solid 1px;
+}
+.booking-form .row1 .email {
+  margin: 40px auto;
+  width: 453px;
+  height: 58px;
+  padding: 10px 30px;
+  border: #79ADDC solid 1px;
+}
+.booking-form .row2 {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.booking-form .row2 .country {
+  flex-direction: row;
+  margin: 40 auto;
+  width: 344px;
+  height: 58px;
+  padding: 10px 30px;
+  border: #79ADDC solid 1px;
+}
+.booking-form .row2 .hotel {
+  flex-direction: row;
+  margin: 40 auto;
+  width: 453px;
+  height: 58px;
+  padding: 10px 30px;
+  border: #79ADDC solid 1px;
+}
+.booking-form .row3 {
+  border: #79ADDC solid 1px;
+  height: 58px;
+}
+.booking-form .row3 .check-in {
+  width: 698px;
+}
+.booking-form .row4 {
+  border: #79ADDC solid 1px;
+  height: 58px;
+}
+.booking-form .row4 .check-out {
+  width: 698px;
+}
+.booking-form .row5 {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.booking-form .row5 .adult {
+  border: #79ADDC solid 1px;
+  height: 58px;
+}
+.booking-form .row5 .children {
+  border: #79ADDC solid 1px;
+  height: 58px;
+}
+.booking-form .row5 .rooms {
+  border: #79ADDC solid 1px;
+  height: 58px;
+}
+.booking-form .message {
+  border: #79ADDC solid 1px;
+  width: 800px;
+  height: 192px;
+}
+
+nav {
+  width: 980px;
+  height: 60px;
+  border-bottom: #fff solid 3px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+nav .links {
+  width: 400px;
+  height: 42px;
+  font-family: GillSans;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .links div.pipe {
+  color: #79ADDC;
+  font-size: 20px;
+}
+nav .links div a {
+  font-family: "GillSans";
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  text-transform: lowercase;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans";
+}
+
+html, body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding-bottom: 20px;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(fonts/GillSans.otf);
+}
+.about {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.about .about-top-section {
+  margin-top: 100px;
+  padding-bottom: 5px;
+}
+.about .about-top-section .about-title {
+  border-bottom: black solid 3px;
+  width: 100px;
+  padding-bottom: 20px;
+}
+.about .about-bottom-section {
+  margin-top: 100px;
+}
+.about .about-bottom-section h3 {
+  flex-direction: row;
+  border-bottom: black solid 3px;
+  width: 80px;
+}
+.about .about-bottom-section .client {
+  max-width: 676px;
+  min-height: 150px;
+  display: flex;
+  margin-bottom: 38px;
+}
+.about .about-bottom-section .client .client-image {
+  width: 260px;
+  height: 150px;
+}
+.about .about-bottom-section .client .client-image img {
+  height: 100%;
+}
+.about .about-bottom-section .client .client1 {
+  background-image: url(../images/about-client-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about .about-bottom-section .client .client2 {
+  background-image: url(../images/about-client-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about .about-bottom-section .client .client-quote {
+  position: relative;
+  min-height: 50px;
+  width: 100%;
+  padding-left: 25px;
+  flex-direction: row;
+}
+.about .about-bottom-section .client .client-quote p:last-of-type {
+  color: black;
+  margin-bottom: 25px;
+}
+.about .about-bottom-section .client .client-quote p:last-of-type:last-child {
+  color: gray;
+}
+.about .about-bottom-section .client .client-quote .client-name {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #79ADDC;
+}
+
+@media only screen and (max-width: 600px) {
+  .about .about-bottom-section {
+    padding: 10px;
+  }
+}
+.nav {
+  width: 980px;
+  height: 60px;
+  border-bottom: black solid 3px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.nav .logo {
+  width: 92px;
+  height: 42px;
+  align-self: center;
+}
+.nav .links {
+  width: 400px;
+  height: 42px;
+  font-family: "GillSans";
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .links div.pipe {
+  color: #79ADDC;
+  font-size: 20px;
+}
+.nav .links div a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  text-transform: lowercase;
+}
+
+@media only screen and (max-width: 1060px) {
+  .nav {
+    max-width: 980px;
+    height: 60px;
+    border-bottom: black solid 3px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav .logo {
+    width: 92px;
+    height: 42px;
+    align-self: center;
+  }
+
+  .nav .links {
+    width: 400px;
+    height: 42px;
+    font-family: GillSans;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav .links div.pipe {
+    color: #79ADDC;
+    font-size: 20px;
+  }
+
+  .nav .links div a {
+    font-family: "GillSans";
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+    text-transform: lowercase;
+  }
+}
+.hero {
+  width: 1280px;
+  height: 500px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/home-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 .hero nav {
   width: 980px;
@@ -168,138 +720,4 @@ div a {
 
 .contact-hero-image {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero/contact-hero.jpg);
-}
-
-.promo-tours {
-  width: 1280px;
-  height: 304px;
-  margin: -50px auto;
-  display: flex;
-  justify-content: space-around;
-  padding-left: 150px;
-  padding-right: 150px;
-}
-.promo-tours .promo {
-  height: 304px;
-  width: 236px;
-  background-color: bisque;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.promo-tours .promo .header {
-  font-family: GillSans;
-  font-size: 40px;
-  margin-bottom: 15px;
-}
-.promo-tours .promo .price {
-  margin-bottom: 70px;
-}
-.promo-tours .promo .learn-more {
-  background-color: #79ADDC;
-  padding: 10px 30px;
-  border-radius: 20px;
-}
-.promo-tours .israel {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-01.jpg);
-}
-.promo-tours .usa {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-02.jpg);
-}
-.promo-tours .austrailia {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
-}
-
-footer {
-  width: 1280px;
-  height: 100px;
-  background-color: #79ADDC;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 120px;
-}
-footer .logo {
-  width: 92px;
-  height: 42px;
-  align-self: center;
-}
-footer .copyright {
-  font-size: 12px;
-  align-self: center;
-  color: #fff;
-}
-footer .socialmedia {
-  display: flex;
-  justify-content: space-between;
-  align-self: center;
-  color: #fff;
-}
-
-.booking-form {
-  width: 1280px;
-  height: 890px;
-  margin: 100px auto -100px auto;
-  background-color: beige;
-  display: flex;
-}
-.booking-form .name {
-  margin: 40px auto;
-  padding: 10px 30px;
-  border: #79ADDC solid 1px;
-}
-.booking-form .email {
-  margin: 40px auto;
-  padding: 10px 30px;
-  border: #79ADDC solid 1px;
-}
-.booking-form .country {
-  margin: 40 auto;
-  padding: 10px 30px;
-  border: #79ADDC solid 1px;
-}
-.booking-form .hotel {
-  margin: 40 auto;
-  padding: 10px 30px;
-  border: #79ADDC solid 1px;
-}
-
-nav {
-  width: 980px;
-  height: 60px;
-  border-bottom: #fff solid 3px;
-  margin: 20px auto 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-nav .logo {
-  width: 92px;
-  height: 42px;
-  align-self: center;
-}
-nav .links {
-  width: 400px;
-  height: 42px;
-  font-family: GillSans;
-  align-self: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav .links div.pipe {
-  color: #79ADDC;
-  font-size: 20px;
-}
-nav .links div a {
-  font-family: "GillSans";
-  font-size: 15px;
-  text-decoration: none;
-  color: #fff;
-  margin: auto;
-  text-transform: lowercase;
 }

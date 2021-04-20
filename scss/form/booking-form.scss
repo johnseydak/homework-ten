@@ -1,36 +1,95 @@
 .booking-form {
     width: 1280px;
-    height: 890px;
+    height: 800px;
     margin: 100px auto -100px auto;
     background-color: beige;
     display: flex;
+    flex-direction: column;
     
-    .name {
-        margin: 40px auto;
-        //background-color: $site-blue;
-        padding: 10px 30px;
-        border: $site-blue solid 1px;
-    }
-    .email {
-        margin: 40px auto;
-        //background-color: $site-blue;
-        padding: 10px 30px;
-        border: $site-blue solid 1px;
-    }
-    .country {
-        margin: 40 auto;
-        //background-color: $site-blue;
-        padding: 10px 30px;
-        border: $site-blue solid 1px;
-    }
-    .hotel {
-        margin: 40 auto;
-        //background-color: $site-blue;
-        padding: 10px 30px;
-        border: $site-blue solid 1px;
+    .h1 {
+        font-size: 50px;
     }
 
-//it's 5am and I do apologize but I've ran out of time. Class in is a few hours and I'd like to get some sleep.
+    .row1 {
+        width:818px;
+        flex-direction: row;
+        justify-content: space-between;
+        .name {
+            margin: 40px auto;
+            width: 344px;
+            height: 58px;
+            //background-color: $site-blue;
+            padding: 10px 30px;
+            border: $site-blue solid 1px;
+        }
+        .email {
+            margin: 40px auto;
+            width: 453px;
+            height: 58px;
+            //background-color: $site-blue;
+            padding: 10px 30px;
+            border: $site-blue solid 1px;
+        } 
+    }
+    .row2{
+        flex-direction: row;
+        justify-content: space-between;
+        .country {
+            flex-direction: row;
+            margin: 40 auto;
+            width: 344px;
+            height: 58px;
+            //background-color: $site-blue;
+            padding: 10px 30px;
+            border: $site-blue solid 1px;
+        }
+        .hotel {
+            flex-direction: row;
+            margin: 40 auto;
+            width: 453px;
+            height: 58px;
+            //background-color: $site-blue;
+            padding: 10px 30px;
+            border: $site-blue solid 1px;
+        }
+    }
+    .row3{
+        border: $site-blue solid 1px;
+        height: 58px;
+        .check-in {
+            width:698px;
+        }
+    }
+    .row4{
+        border: $site-blue solid 1px;
+        height: 58px;
+        .check-out {
+            width:698px;
+        }
+    }
+    .row5{
+        flex-direction: row;
+        justify-content: space-between;
+        .adult {
+            border: $site-blue solid 1px;
+            height: 58px;
+        }
+        .children {
+            border: $site-blue solid 1px;
+            height: 58px;
+        }
+        .rooms {
+            border: $site-blue solid 1px;
+            height: 58px;
+        }
+    }
+
+    .message {
+        border: $site-blue solid 1px;
+        width:800px;
+        height: 192px;
+    }
+
 
 
 

@@ -1,0 +1,165 @@
+.contact {
+    font-family: Gill Sans;
+    display: block;
+    width:980px;
+    height: 890px;
+    margin: 0 auto;
+    //background-color: orchid;
+    position:relative;
+
+    .headline{
+        display: block;
+        padding-top: 50px;
+        font-size: 30px;
+        height: 150px;
+        //background-color: orange;
+        background-size: cover;
+        width:980px;
+
+        .headlineborder {
+            width:159px;
+            height: 10px;
+            border-bottom: 3px solid black;
+
+        }
+
+    }
+
+    .contactsection {
+        display: flex;
+
+        .contactcolumn1 { 
+
+            width: 400px;
+            height: 442px;
+            background-image: url(../images/map.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            flex-direction: column;
+
+            .contactimage {
+                width: 400px;
+                height: 442px;
+            }
+
+            .contactaddress {
+                height: 161px;
+                font-size: 18px;
+                padding-top: 40px;
+
+            }
+
+
+        }
+
+        .contactcolumn2 {
+            flex-direction: column;
+            width: 552px;
+            background-color: white;
+            height: 442px;
+            margin-left: 50px;
+            font-size: 16px;
+
+            .yourname {
+                height: 60px;
+                background-color: #f5f5f5;
+                margin-bottom: 20px;
+                padding-left: 20px;
+                padding-top: 21px;
+            }
+
+            .email {
+                height: 60px;
+                background-color: #f5f5f5;
+                margin-bottom: 20px;
+                padding-left: 20px;
+                padding-top: 21px;
+            }
+
+            .company {
+                height: 60px;
+                background-color: #f5f5f5;
+                margin-bottom: 20px;
+                padding-left: 20px;
+                padding-top: 21px;
+            }
+
+            .message {
+                height: 199px;
+                background-color: #f5f5f5;
+                padding-left: 20px;
+                padding-top: 21px;
+                padding-bottom: 20px;
+            }
+
+            .sendmessage {
+                margin-top: 22px;
+                padding-top: 21px;
+                width: 167px;
+                height: 60px;
+                background-color: $site-blue;
+                color: white;
+                text-align: center;
+            }
+
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 795px) {
+    .contact {
+        //display: block;
+        margin: 0 auto;
+        height: 1590px;
+        //height: 1500px;
+    
+        .headline{
+            margin-left: 30%;
+            align-self: center;
+            //position: fixed;
+            //width: 795px;
+            //align-items: center;
+            //justify-content: center;
+            //justify-items: center;
+        }
+    
+        .contactsection{
+            width: 80%;
+            align-items: center;
+            //margin: 0 auto;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+
+            .contactcolumn1 {
+                display: block;
+                width: 100%;
+                //height: auto;
+
+                .contactaddress {
+                    text-align: center;
+                }
+            }
+    
+            .contactcolumn2 {
+                display: block;
+                margin-top: 220px;
+                margin-left: 0px;
+                width: 100%;
+                margin-bottom: 100px;
+
+                .sendmessage{
+                margin-left: auto;
+                margin-right: auto;
+                }
+
+            }
+    
+        }
+
+    }
+
+}

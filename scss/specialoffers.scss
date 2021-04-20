@@ -1,0 +1,134 @@
+.specialoffers{
+    font-family: Proxima;
+    width: 980px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    margin: 0 auto;
+    background-color: black; // This is a pretty good indicator that the CSS isn't updating
+    position: relative;
+
+
+    .headline{
+        padding-left: 0px;
+        font-size: 50px;
+        width: 980px;
+
+        flex-direction: row;
+        border-bottom: black 3px;
+    }
+    .offers{
+
+
+        .offer1{
+            flex-direction: row;
+
+            .barcelonaimage{
+                background-image: $overlay, url(../images/special-offer-01.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .barcelonasection1{
+                font-size: 12px;
+                padding-left: 10px;
+            }
+
+            .barcelonasection2 {
+
+               .barcelonasale{
+                   position:fixed;
+                   padding-left: 10px;
+                   padding-top: 3px;
+               } 
+
+            }
+
+        }
+
+        .offer2{
+            flex-direction: row;
+
+            .bangkokimage{
+                background-image: $overlay, url(../images/special-offer-02.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .bangkoksection1{
+                font-size: 12px;
+                padding-left: 10px;
+            }        
+            .bangkoksection2{
+
+                .bangkoksale{
+                    position: fixed;
+                    padding-left: 10px;
+                    padding-top: 3px;
+                }
+                
+            }    
+        }
+
+    }
+}
+
+@media only screen and (max-width: 795px) {
+    .specialoffers{
+
+
+
+        .headline {
+            margin-left: 30%;
+            align-self: center;
+        }
+
+        .offers {
+            //display: block;
+
+            .offer1 {
+                flex-direction: column;
+
+                .barcelonaimage{
+                    width:100%;
+                    flex-direction: column;
+                }
+
+                .barcelonasection1 {
+                    width: 100%;
+                }
+
+                .barcelonasection2 {
+                    flex-wrap: wrap;
+                }
+            }
+
+            .offer2 {
+                flex-direction: column;
+
+                .bangkokimage {
+                    width:100%;
+                    flex-direction: column;
+                }
+
+                .bangkoksection1 {
+                    width: 100%;
+                }
+
+                .bangkoksection2 {
+                    flex-wrap: wrap;
+                }
+
+            }
+
+
+        }
+
+
+
+    }
+
+
+
+
+}
