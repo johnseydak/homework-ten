@@ -2,23 +2,23 @@
     max-width: 1280px;
     height: 1500px; //was min-height of 304px
     //background-color: cadetblue;
-    margin: -50px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     padding-left: 150px; 
     padding-right: 150px; 
     
     .promo {
-        height: 304px;
+        height: 1504px;
         width: 266px;
         background-color: bisque;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         color: $white;
-        //display: flex;
-        //flex-direction: column;
-        //align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
         padding-bottom: 30 px;
        
@@ -37,30 +37,35 @@
             border-radius: 20px;
         }
 
+        
 
     }
 
     .row1{
-        flex-direction: row;
-        width: 980px;
+        //flex-direction: row;
+        width: 818px;
         height: 334px;
         padding-bottom: 30px;
         justify-content: space-between;
         margin-bottom: 30px;
+        
         .israel {
+            float: left;
             background-image: $overlay, url(../images/tour-01.jpg);
         }
         .usa {
+            float: left;
             background-image: $overlay, url(../images/tour-02.jpg);
         }
         .austrailia {
+            float: left;
             background-image: $overlay, url(../images/tour-03.jpg);
         }
     }
 
     .row2{
-        flex-direction: row;
-        width: 980px;
+        //flex-direction: row;
+        width: 818px;
         height: 334px;
         padding-bottom: 30px;
         justify-content: space-between;
@@ -77,12 +82,12 @@
     }
     
     .row3{
-        flex-direction: row;
-        width: 980px;
+        //flex-direction: row;
+        width: 818px;
         height: 334px;
         padding-bottom: 30px;
         justify-content: space-between;
-        margin-bottom: 30px;
+        padding-bottom: 30px;
         .japan{
             background-image: $overlay, url(../images/tour-07.jpg);
         }
