@@ -5,31 +5,34 @@
     display: block;
     margin: 0 auto;
     //background-color: black; // This is a pretty good indicator that the CSS isn't updating
-    //position: relative;
+    position: relative;
 
 
     .headline{
         padding-left: 0px;
         font-size: 30px;
         width: 980px;
-        height:150px;
-        margin-top: 80px;
+        height:90px;
+        margin-top: 50px;
         flex-direction: row;
         //border-bottom: black 3px;
-        //display:block;
+
 
         .headlineborder{
             border-bottom: black 3px;
-            display:block;
+            width:199px;
         }
 
     }
     .offers{
-        //display:flex;
         .offer1{
+            display:flex;
+            height: 287px;
             flex-direction: row;
             .barcelonaimage{
-                background-image: $overlay, url(../images/special-offer-01.jpg);
+                width: 199px;
+                height: 287px;
+                background-image: url(../images/special-offer-01.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -37,20 +40,54 @@
             .barcelonasection1{
                 font-size: 12px;
                 padding-left: 10px;
-            }
-            .barcelonasection2 {
+                width: 306px;
+                height: 287px;
+                .barcelonaheadline{
+                    font-size: 30px;
+                    height:50px;
+                    width:306px;
+                }
 
                .barcelonasale{
                    //position:fixed;
                    padding-left: 10px;
                    padding-top: 3px;
                } 
+               .barcelonaborder {
+                    border-bottom: black 3px;
+                    width:196px;
+               }
+               .lorem {
+                height:202px;
+                width: 290px;
+               }
+               .learn-more {
+                background-color: $site-blue;
+                padding: 10px 30px;
+                border-radius: 20px;
+                width:133px;
+                color: white;
+                text-align: center;
+                }
+            }
+            .barcelonasection2 {
+
+                .barcelonasale{
+                    //position:fixed;
+                    padding-left: 10px;
+                    padding-top: 3px;
+                }
             }
         }
         .offer2{
+            margin-top: 60px;
+            display:flex;
+            height: 347px;
             flex-direction: row;
             .bangkokimage{
-                background-image: $overlay, url(../images/special-offer-02.jpg);
+                width: 199px;
+                height: 287px;
+                background-image: url(../images/special-offer-02.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -58,16 +95,43 @@
             .bangkoksection1{
                 font-size: 12px;
                 padding-left: 10px;
-            }        
-            .bangkoksection2{
+                width: 306px;
+
+                .bangkokheadline{
+                    font-size: 30px;
+                    height:50px;
+                    width:306px;
+                }
+
+               .bangkoksale{
+                   padding-left: 10px;
+                   padding-top: 3px;
+               } 
+               .bangkokborder {
+                    border-bottom: black 3px;
+                    width:214px;
+               }
+               .lorem {
+                    height:202px;
+                    width: 290px;
+               }
+               .learn-more {
+                background-color: $site-blue;
+                padding: 10px 20px;
+                border-radius: 20px;
+                width:133px;
+                color: white;
+                text-align: center;
+            }
+
+            }
+            .bangkoksection2 {
 
                 .bangkoksale{
-                    //position: fixed;
                     padding-left: 10px;
                     padding-top: 3px;
                 }
-                
-            }    
+            } 
         }
     }
 }

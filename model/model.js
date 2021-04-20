@@ -132,7 +132,6 @@ var specialoffersContent =`<div class="specialoffers">
         <div class="barcelonaimage"></div>
         <div class="barcelonasection1">
             <div class="barcelonaheadline">BARCELONA, SPAIN</div>
-            <div class="barcelonasale"></div>
             <div class="barcelonaborder"></div>
             <div class="lorem">
                 <p>
@@ -151,7 +150,6 @@ var specialoffersContent =`<div class="specialoffers">
             <div class="bangkokimage"></div>
             <div class="bangkoksection1">
                 <div class="bangkokheadline">BANGKOK, THAILAND</div>
-                <div class="bangkoksale"></div>
                 <div class="bangkokborder"></div>
                 <div class="lorem">
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
@@ -207,8 +205,31 @@ var blogContent =`<div class="blog">
     <img src="images/Path 5.png" alt="Facebook Logo">
 </div>`;
 var contactContent =`<div class="contact">
-<h1>CONTACT</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi non sem dapibus, convallis lobortis erat consectetur. Praesent finibus nisi eu bibendum tristique. Nullam magna nulla, feugiat vitae iaculis id, bibendum nec ligula. Nullam id enim mattis, convallis orci quis, hendrerit velit. Suspendisse tortor tortor, cursus sed libero sed.</p>
+<div class="headline">
+    CONTACT US:
+    <div class="headlineborder"></div>
+ </div>
+<div class="contactsection">
+    <div class="contactcolumn1">
+        <div class="contactimage"></div>
+        <div class="contactaddress">
+            <p>travel-fly Inc.<br> 
+            8901 Marmora Road,<br>
+            Glasgow, D04 89GR.<br>
+            Freephone:+1 800 559 6580<br>
+            Telephone:+1 800 603 6035<br>
+            FAX:+1 800 889 9898<br>
+            E-mail: mail@travelfly.org</p>
+        </div>
+    </div>
+    <div class="contactcolumn2">
+        <div class="yourname">Your name...</div>
+        <div class="email">Email Address...</div>
+        <div class="company">Company...</div>
+        <div class="message">Message...</div>
+        <div class="sendmessage"> SEND MESSAGE</div>
+    </div>
+</div> 
 </div>`;
 
 function getPageContent(pageId) {

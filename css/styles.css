@@ -23,6 +23,10 @@ p {
   font-family: GillSans;
   src: url(fonts/GillSans.ttc);
 }
+@font-face {
+  font-family: Proxima;
+  src: url(fonts/Proxima_Nova_ScOsf_Extra_Condensed_Bold.ttf);
+}
 .hero {
   width: 1280px;
   height: 500px;
@@ -728,24 +732,29 @@ div a {
   height: 700px;
   display: block;
   margin: 0 auto;
+  position: relative;
 }
 .specialoffers .headline {
   padding-left: 0px;
   font-size: 30px;
   width: 980px;
-  height: 150px;
-  margin-top: 80px;
+  height: 90px;
+  margin-top: 50px;
   flex-direction: row;
 }
 .specialoffers .headline .headlineborder {
   border-bottom: black 3px;
-  display: block;
+  width: 199px;
 }
 .specialoffers .offers .offer1 {
+  display: flex;
+  height: 287px;
   flex-direction: row;
 }
 .specialoffers .offers .offer1 .barcelonaimage {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/special-offer-01.jpg);
+  width: 199px;
+  height: 287px;
+  background-image: url(../images/special-offer-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -753,16 +762,48 @@ div a {
 .specialoffers .offers .offer1 .barcelonasection1 {
   font-size: 12px;
   padding-left: 10px;
+  width: 306px;
+  height: 287px;
+}
+.specialoffers .offers .offer1 .barcelonasection1 .barcelonaheadline {
+  font-size: 30px;
+  height: 50px;
+  width: 306px;
+}
+.specialoffers .offers .offer1 .barcelonasection1 .barcelonasale {
+  padding-left: 10px;
+  padding-top: 3px;
+}
+.specialoffers .offers .offer1 .barcelonasection1 .barcelonaborder {
+  border-bottom: black 3px;
+  width: 196px;
+}
+.specialoffers .offers .offer1 .barcelonasection1 .lorem {
+  height: 202px;
+  width: 290px;
+}
+.specialoffers .offers .offer1 .barcelonasection1 .learn-more {
+  background-color: #79ADDC;
+  padding: 10px 30px;
+  border-radius: 20px;
+  width: 133px;
+  color: white;
+  text-align: center;
 }
 .specialoffers .offers .offer1 .barcelonasection2 .barcelonasale {
   padding-left: 10px;
   padding-top: 3px;
 }
 .specialoffers .offers .offer2 {
+  margin-top: 60px;
+  display: flex;
+  height: 347px;
   flex-direction: row;
 }
 .specialoffers .offers .offer2 .bangkokimage {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/special-offer-02.jpg);
+  width: 199px;
+  height: 287px;
+  background-image: url(../images/special-offer-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -770,6 +811,32 @@ div a {
 .specialoffers .offers .offer2 .bangkoksection1 {
   font-size: 12px;
   padding-left: 10px;
+  width: 306px;
+}
+.specialoffers .offers .offer2 .bangkoksection1 .bangkokheadline {
+  font-size: 30px;
+  height: 50px;
+  width: 306px;
+}
+.specialoffers .offers .offer2 .bangkoksection1 .bangkoksale {
+  padding-left: 10px;
+  padding-top: 3px;
+}
+.specialoffers .offers .offer2 .bangkoksection1 .bangkokborder {
+  border-bottom: black 3px;
+  width: 214px;
+}
+.specialoffers .offers .offer2 .bangkoksection1 .lorem {
+  height: 202px;
+  width: 290px;
+}
+.specialoffers .offers .offer2 .bangkoksection1 .learn-more {
+  background-color: #79ADDC;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 133px;
+  color: white;
+  text-align: center;
 }
 .specialoffers .offers .offer2 .bangkoksection2 .bangkoksale {
   padding-left: 10px;
